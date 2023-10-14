@@ -1,0 +1,395 @@
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+@font-face {
+    font-family: gothambold;
+    src: url(fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: gothamblack;
+    src: url(fonts/Gotham-Black.otf);
+}
+
+
+.top {
+    z-index: 4;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #8B0000;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+}
+
+
+@media (min-width:600px) {
+  #logo {
+    position: relative;
+    width: 100px;
+    right: 600px;
+  }
+  #menuicon {
+    position: relative;
+    width: 50px;
+    right: -580px;
+  }
+  #menu {
+    z-index: 6;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #808080;
+    border-radius: 15px;
+    right: 80px;
+    top: 24px;
+    -webkit-transition: opacity 0.2s ease-in-out, width 0.3s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out, width 0.3s ease-in-out;
+    transition: opacity 0.2s ease-in-out, width 0.3s ease-in-out;
+  }
+  #banner1 {
+    cursor: auto;
+    margin-top: 40%;
+    width: 50%;
+    border-radius: 15px;
+  }
+  #button1 {
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    width: 250px;
+    left: 340px;
+    top: 425px;
+  }
+  #button2 {
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    width: 250px;
+    right: 290px;
+    top: 420px;
+  }
+  .nos {
+    pointer-events: none;
+    opacity: 0;
+    z-index: 8;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #8B0000;
+    border-radius: 15px;
+    top: 250px;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .serv {
+    pointer-events: none;
+    opacity: 0;
+    z-index: 8;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #8B0000;
+    border-radius: 15px;
+    top: 250px;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    margin: 20px;
+  }
+  
+}
+@media (max-width:600px) {
+  #logo {
+    position: relative;
+    left: -120px;
+    width: 70px;
+  }
+  #menuicon {
+    position: relative;
+    width: 45px;
+    right: -110px;
+  }
+  #menu {
+    z-index: 6;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #808080;
+    border-radius: 15px;
+    right: 60px;
+    top: 24px;
+    -webkit-transition: opacity 0.2s ease-in-out, width 0.3s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out, width 0.3s ease-in-out;
+    transition: opacity 0.2s ease-in-out, width 0.3s ease-in-out;
+  }
+  #banner1 {
+    position: relative;
+    top: 25px;
+    cursor: auto;
+    margin-top: 40%;
+    width: 80%;
+    border-radius: 15px;
+  }
+  #button1 {
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    width: 95px;
+    left: 28px;
+    top: 175px;
+  }
+  #button2 {
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    width: 95px;
+    left: 255px;
+    top: 170px;
+  }
+  .nos {
+    pointer-events: none;
+    opacity: 0;
+    z-index: 8;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #8B0000;
+    border-radius: 15px;
+    top: 150px;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .serv {
+    pointer-events: none;
+    opacity: 0;
+    z-index: 8;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #8B0000;
+    border-radius: 15px;
+    top: 150px;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    margin: 20px;
+}
+}
+
+
+.menuini {
+    width: 0px;
+    height: 50px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menufim {
+    width: 150px;
+    height: 50px;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#modo {
+    position: relative;
+    top: 2px;
+    width: 60px;
+}
+
+#idioma {
+    position: relative;
+    top: 2px;
+    width: 60px;
+}
+
+.meio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.buttons:hover {
+    -webkit-filter: brightness(0.7);
+            filter: brightness(0.7);
+}
+
+.buttons:active {
+    -webkit-filter: brightness(0.4);
+            filter: brightness(0.4);
+}
+
+
+#partebaixa {
+    padding: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: #333333;
+    position: absolute;
+    top: 1070px
+}
+
+
+.logos {
+    margin: 5px;
+    width: 50px;
+}
+
+.logos:hover {
+    opacity: 0.7;
+}
+
+.logos:active {
+    opacity: 0.3;
+}
+
+#nostext {
+    color: aliceblue;
+    font-family: gothambold;
+    margin: 25px;
+    position: relative;
+    
+}
+
+#servtext {
+    color: aliceblue;
+    font-family: gothambold;
+    margin: 25px;
+    position: relative;
+}
+
+#fecharnos {
+    position: relative;
+    top: -70px;
+    right: 10px;
+    cursor: pointer;
+    font-family: gothamblack;
+    color:#808080;
+}
+
+#fecharserv {
+    position: relative;
+    top: -50px;
+    right: 10px;
+    cursor: pointer;
+    font-family: gothamblack;
+    color:#808080;
+}
+
+#desfoque {
+    opacity: 0;
+    pointer-events: none;
+    z-index: 7;
+    position: fixed;
+    background-color: #808080;
+    width: 100%;
+    height: 1200%;
+    border: 1px solid #808080;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.fechar:hover {
+    opacity: 0.7;
+}
+
+.fechar:active {
+    opacity: 0.3;
+}
+
+.button:hover {
+    -webkit-filter: brightness(0.8);
+            filter: brightness(0.8);
+}
+
+.button:active {
+    -webkit-filter: brightness(0.4);
+            filter: brightness(0.4);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
